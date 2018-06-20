@@ -1,0 +1,57 @@
+h1
+{
+	color:black;
+}
+body 
+}
+-webkit-border-radius: 150px;
+-moz-border-radius: 150px;
+border-radius: 150px;
+}
+
+.carre
+{
+	width:200px;
+	height:200px;
+	background:#069;
+}
+		
+
+body {
+  background-color: #C4F6C3;
+
+}
+
+
+canvas {
+  background-color: white;
+}
+
+#content {
+  text-align: center;
+}	
+
+.trait
+{
+background-color: red;
+height: 1pt;
+width: 100%;
+}
+
+h1
+{
+	position:center;
+}
+.container 
+{
+   position: relative;
+   text-align: center;
+   color: white;
+          }
+.centered 
+{
+   position: absolute;
+   top: 20%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
