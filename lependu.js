@@ -1,5 +1,5 @@
 //var c=0;
-var str=prompt("hhhhjhh");
+var str=prompt("tape un mot ");
 var arr=["_"];
 arr.length=str.length;
 var x= 0;
@@ -18,7 +18,8 @@ window.onload = function myFunction ()
              
              var c1 = document.getElementById("myCanvas");
             var ctx = c1.getContext("2d");
-            var lett =prompt("Please enter lett ");    
+            var lett =prompt("Please enter letter ");    
+
                                                                for (var i = 0; i < str.length; i++)
                                                                {
                                                                    if(lett==str[i])
@@ -27,20 +28,31 @@ window.onload = function myFunction ()
                                                                          le =str[i];
                                                                            x=i;
                                                                            break;
+                                                                          
+
                                                                    }else
                                                                    {
                                                                        c=0;
                                                                        continue;
                                                                    }
                                                                  }                    
-                                                                                                                       if (c==1)
+                                                                                                                    
+                                                                  if (c==1)
                                                            {
                                                                res();
+                                                               alert("super");
+
+
                                                            }
+
                                                            else
                                                            if (c==0) {
+
                                                                res2();
-                                                           }                            function res()
+                                                               alert("faux");
+                                                           }         
+                                                             
+                                                                        function res()
                              {                                          arr[x]=le;
                                         document.getElementById(x).innerHTML = le;
                                  }
@@ -118,3 +130,4 @@ window.onload = function myFunction ()
             
                                         
          });    }
+
